@@ -39,7 +39,7 @@
 
 ## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
 
-### Etapa 1: Abra o CMD ou PowerShell como Administrador
+### Etapa 1: Clique na tecla ```cmdWin``` do teclado e pesquise por ```cmdcmd```
 Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin).
 
 ### Etapa 2: Execute o Comando de Instalação
