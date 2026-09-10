@@ -1,33 +1,7 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows">
-  <img src="https://img.shields.io/badge/Status-Funcionando-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-purple?style=for-the-badge">
-</p>
-
-<h1 align="center">
-  🔧 Universal Driver Fixer 2026<br>
-  <span style="font-size:18px;">Corrige erros e instala todos os drivers que faltam no seu PC</span>
-</h1>
-
-<p align="center">
-  <strong>Driver Fixer · Reparo Windows · Drivers Ausentes · Correção Tela Azul · Otimizador PC · Instalador de Drivers</strong><br>
-  <span style="color:#6c757d;">Funcionando 2026 · Corrige qualquer erro · Baixa todos os drivers · Totalmente Carregado · Grátis</span>
-</p>
-
-<p align="center">
-  <a href="#-instalação--configuração-cmd--powershell">Início Rápido</a> •
-  <a href="#-recursos-da-ferramenta">Recursos</a> •
-  <a href="#-status-do-módulo">Status</a> •
-  <a href="#-solução-de-problemas">Solução de Problemas</a> •
-  <a href="#-palavras-chave">Tags</a>
-</p>
-
----
-
-## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
-
-### Etapa 1: Abra o CMD ou PowerShell como Administrador
-```cmd
+<p align="center"> <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows"> <img src="https://img.shields.io/badge/Status-Funcionando-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-purple?style=for-the-badge"> </p><h1 align="center"> 🔧 Universal Driver Fixer 2026<br> <span style="font-size:18px;">Corrige erros e instala todos os drivers que faltam no seu PC</span> </h1><p align="center"> <strong>Driver Fixer · Reparo Windows · Drivers Ausentes · Correção Tela Azul · Otimizador PC · Instalador de Drivers</strong><br> <span style="color:#6c757d;">Funcionando 2026 · Corrige qualquer erro · Baixa todos os drivers · Totalmente Carregado · Grátis</span> </p><p align="center"> <a href="#-instalação--configuração-cmd--powershell">Início Rápido</a> • <a href="#-recursos-da-ferramenta">Recursos</a> • <a href="#-status-do-módulo">Status</a> • <a href="#-solução-de-problemas">Solução de Problemas</a> • <a href="#-palavras-chave">Tags</a> </p>
+⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
+Etapa 1: Abra o CMD ou PowerShell como Administrador
+cmd
 # Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin)
 Etapa 2: Execute o Comando de Instalação
 cmd
@@ -117,4 +91,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<p align="center"> ⭐ <strong>Dê uma estrela neste repositório</strong> · 🍴 <strong>Faça um fork</strong> · 🔧 <strong>Melhor driver fixer</strong> </p><p align="center"> <sub>Universal Driver Fixer 2026 | Corrige erros e baixa todos os drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub> </p> ```
+<p align="center"> ⭐ <strong>Dê uma estrela neste repositório</strong> · 🍴 <strong>Faça um fork</strong> · 🔧 <strong>Melhor driver fixer</strong> </p><p align="center"> <sub>Universal Driver Fixer 2026 | Corrige erros e baixa todos os drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub> </p>
