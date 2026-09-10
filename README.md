@@ -1,3 +1,4 @@
+===
 <p align="center">
   <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows">
   <img src="https://img.shields.io/badge/Status-Funcionando-brightgreen?style=for-the-badge">
@@ -14,6 +15,13 @@
   <span style="color:#6c757d;">Funcionando 2026 · Detecta drivers ausentes automaticamente · Totalmente Carregado · Grátis</span>
 </p>
 
+<p align="center">
+  <a href="#-instalação--configuração-cmd--powershell">Início Rápido</a> •
+  <a href="#-recursos-da-ferramenta">Recursos</a> •
+  <a href="#-status-do-módulo">Status</a> •
+  <a href="#-solução-de-problemas">Solução de Problemas</a> •
+  <a href="#-palavras-chave">Tags</a>
+</p>
 
 ---
 
@@ -81,7 +89,7 @@ Cole o comando e pressione Enter.
 
 ## 🔑 PALAVRAS-CHAVE
 
-driver fixer, windows repair, missing drivers, blue screen fix, pc optimizer, driver installer, universal driver fixer 2026, auto driver install, windows 10 drivers, windows 11 drivers, driver updater, hardware detection, registry repair, driver conflict, GPU drivers, network drivers, audio drivers, chipset drivers, USB drivers, Microsoft drivers
+`driver fixer` `windows repair` `missing drivers` `blue screen fix` `pc optimizer` `driver installer` `universal driver fixer 2026` `auto driver install` `windows 10 drivers` `windows 11 drivers` `driver updater` `hardware detection` `registry repair` `driver conflict` `GPU drivers` `network drivers` `audio drivers` `chipset drivers` `USB drivers` `Microsoft drivers`
 
 ---
 
@@ -118,3 +126,4 @@ SOFTWARE.
 <p align="center">
   <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub>
 </p>
+===
