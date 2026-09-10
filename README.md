@@ -15,13 +15,6 @@
   <span style="color:#6c757d;">Working 2026 · Corrige qualquer erro · Baixa todos os drivers · Fully Loaded · Free</span>
 </p>
 
-<p align="center">
-  <a href="#-installation--setup-cmd--powershell">Quick Start</a> •
-  <a href="#-tool-features">Features</a> •
-  <a href="#-module-status">Status</a> •
-  <a href="#-troubleshooting">Troubleshooting</a> •
-  <a href="#-keywords">Tags</a>
-</p>
 
 ---
 
