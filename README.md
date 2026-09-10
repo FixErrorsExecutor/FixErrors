@@ -86,20 +86,6 @@ Cole o comando e pressione Enter.
 
 ---
 
-
-## 📋 REQUISITOS DO SISTEMA
-
-| Requisito | Mínimo | Recomendado |
-|-----------|--------|-------------|
-| **Sistema Operacional** | Windows 10 (1809+) | Windows 11 (22H2+) |
-| **Processador** | 1 GHz | 2 GHz ou superior |
-| **Memória RAM** | 2 GB | 4 GB ou mais |
-| **Espaço em Disco** | 500 MB | 1 GB |
-| **Conexão** | Internet estável | Banda Larga |
-| **Permissões** | Administrador | Administrador |
-
----
-
 ## 🔑 PALAVRAS-CHAVE
 
 driver fixer, windows repair, missing drivers, blue screen fix, pc optimizer, driver installer, universal driver fixer 2026, auto driver install, windows 10 drivers, windows 11 drivers, driver updater, hardware detection, registry repair, driver conflict, GPU drivers, network drivers, audio drivers, chipset drivers, USB drivers, Microsoft drivers
@@ -139,4 +125,3 @@ SOFTWARE.
 <p align="center">
   <sub>Universal Driver Fixer 2026 | Instalação automática de drivers ausentes | Ferramenta de Reparo Windows | Apenas Educacional</sub>
 </p>
-===
