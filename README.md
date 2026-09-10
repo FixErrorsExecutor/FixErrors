@@ -1,6 +1,3 @@
-Aqui está o conteúdo **completo e pronto** para você copiar e colar no Bloco de Notas:
-
----
 
 <p align="center">
   <img src="https://img.shields.io/badge/Universal_Driver_Fixer-v2.7-0078d4?style=for-the-badge&logo=windows">
@@ -174,18 +171,3 @@ SOFTWARE.
 <p align="center">
   <sub>Universal Driver Fixer 2026 | Corrige erros e baixa todos os drivers ausentes | ESTE PROGRAMA É LEGÍTIMO | Educational Only</sub>
 </p>
-
----
-
-**COMO SALVAR:**
-
-1. Selecione TODO o texto acima (do `<p align="center">` até o último `</p>`)
-2. Copie (Ctrl+C)
-3. Abra o **Bloco de Notas**
-4. Cole (Ctrl+V)
-5. Vá em **Arquivo → Salvar Como**
-6. Em **"Tipo"**, mude para **"Todos os arquivos (*.*)"**
-7. Nome do arquivo: **`README.md`**
-8. Clique em **Salvar**
-
-**Pronto, é só fazer upload no GitHub.**
