@@ -14,13 +14,6 @@
   <span style="color:#6c757d;">Funcionando 2026 · Detecta drivers ausentes automaticamente · Totalmente Carregado · Grátis</span>
 </p>
 
-<p align="center">
-  <a href="#-instalação--configuração-cmd--powershell">Início Rápido</a> •
-  <a href="#-recursos-da-ferramenta">Recursos</a> •
-  <a href="#-status-do-módulo">Status</a> •
-  <a href="#-solução-de-problemas">Solução de Problemas</a> •
-  <a href="#-palavras-chave">Tags</a>
-</p>
 
 ---
 
