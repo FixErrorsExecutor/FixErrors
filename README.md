@@ -22,7 +22,6 @@
   <img src="https://img.shields.io/badge/ESTE_PROGRAMA_%C3%89-LEG%C3%8DTIMO-brightgreen?style=for-the-badge">
 </p>
 
-<h2 align="center">✅ ESTE PROGRAMA É LEGÍTIMO ✅</h2>
 
 ---
 
